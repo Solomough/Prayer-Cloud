@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ark Network | Prayer Cloud</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="landing-page" class="page-section active">
+        <img src="1000213834.png" alt="The Ark Network Logo" class="logo">
+        <div class="content-box">
+            <h1>The Prayer Cloud</h1>
+            <p class="purpose">Time to rise up and be a blessing  to your world, welcome to the space of gathering clouds. "If the clouds be full of rain, they empty themselves upon the earth: and if the tree fall toward the south, or toward the north, in the place where the tree falleth, there it shall be(Eclesiates 11:3". In a world  filled with many things that are seeking for your attention learn to yield your minds and be rooted in the truth.  Vision + Execution.</p>
+
+            <div class="proprietor-section">
+                <img src="1000214807.jpg" alt="Proprietor Solomon Moughkaa Zahemen" class="proprietor-img">
+                <blockquote class="gold-text">
+                    "We are on the roadmap that wins, and on it we act like it — we don’t think otherwise."
+                    <footer>— Solomon Moughkaa Zahemen</footer>
+                </blockquote>
+            </div>
+
+            <button id="start-prayer-btn" class="glow-button">START PRAYER</button>
+
+            <div class="invite-link-container">
+                <p class="invite-text">Invite someone to join the cloud:</p>
+                <button id="copy-invite-btn" class="glow-button small-button">Copy Invite Link</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="prayer-page" class="page-section">
+        <div class="timer-section">
+            <h2 class="gold-text">Set Your Prayer Focus</h2>
+            <div class="timer-controls">
+                <label for="prayer-duration" class="gold-text">Duration (Minutes - Min 15):</label>
+                <input type="number" id="prayer-duration" value="15" min="15">
+                <button id="begin-timer-btn" class="glow-button small-button">Begin</button>
+            </div>
+
+            <div id="timer-display" class="timer-display gold-text">
+                00:00
+            </div>
+            <button id="pause-timer-btn" class="glow-button small-button" style="display:none;">Pause</button>
+            <button id="reset-timer-btn" class="glow-button small-button" style="display:none;">Reset</button>
+        </div>
+
+        <div class="reflection-section">
+            <h3 class="gold-text">Scriptural Anchors</h3>
+            <ul class="scriptures">
+                <li>**Working in Christ's Riches:** Ephesians 3:16</li>
+                <li>**Shinning Lights:** Daniel 12:3</li>
+                <li>**Answer to the Cry:** 1 Peter 2:9</li>
+                <li>**Light of the World:** Isaiah 60</li>
+                <li>**A City Set on a Hill:** Matthew 5:14</li>
+            </ul>
+
+            <h3 class="gold-text">Your Reflection (After Prayer)</h3>
+            <textarea id="reflection-text" placeholder="Write down your thoughts about what you'll do to be a blessing to your world, through the insight given by the Holy Spirit..." rows="6" disabled></textarea>
+
+            <button id="send-reflection-btn" class="glow-button primary-button" disabled>SEND REFLECTION & SHARE</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+  </html>
+  
