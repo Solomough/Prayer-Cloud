@@ -1,5 +1,5 @@
 // --- CONFIGURATION ---
-// 1. WhatsApp Number (Proprietor's number for receiving reflections)
+// 1. WhatsApp Number (Founder's number for receiving reflections)
 const WHATSAPP_NUMBER = "2347076560169"; // Your number, adjusted for URL format (no '+')
 
 // 2. Google Form Configuration (IMPORTANT: REPLACE THESE WITH YOUR FORM DETAILS)
